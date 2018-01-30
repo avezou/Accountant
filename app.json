@@ -9,7 +9,6 @@
   "repository": "https://github.com/dulacp/Accountant",
   "addons": [
     "heroku-postgresql:hobby-dev",
-    "mandrill:starter",
     "newrelic:wayne"
   ],
   "env": {
