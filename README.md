@@ -149,12 +149,11 @@ Lancer les commandes dans l'ordre ci-dessous:
 $ heroku create accountant-x --region eu
 $ heroku config:add BUILDPACK_URL=git://github.com/heroku/heroku-buildpack-python.git
 $ heroku addons:add heroku-postgresql:hobby-dev
-$ heroku addons:add mandrill:starter
 $ heroku addons:add newrelic:wayne
 $ heroku config:set DJANGO_SETTINGS_MODULE="accountant.settings.prod"
 $ heroku config:set SECRET_KEY=`openssl rand -base64 32`
 $ heroku config:set LOCAL_SERVER=0
-$ heroku config:set SITE_MAIN_DOMAIN=accountant-x.herokuapp.com
+$ heroku config:set SITE_MAIN_DOMAIN=accountant-apetitfr.herokuapp.com
 $ heroku config:set DISABLE_COLLECTSTATIC=1
 $ heroku config:set AWS_STORAGE_BUCKET_NAME=accountantx AWS_S3_ACCESS_KEY_ID="<access_key>" AWS_S3_SECRET_ACCESS_KEY="<secret_key>"
 $ git push heroku master
